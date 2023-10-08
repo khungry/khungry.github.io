@@ -1,32 +1,51 @@
 <!doctype html>
 <html>
 <head>
-	<title>khuwn</title>
-	<meta name="author" content="khuwun" />
-	<meta name="description" content="portfolio" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+<title>khuwn</title>
+<meta name="author" content="khuwun" />
+<meta name="description" content="portfolio" />
+<link rel="stylesheet" href="indexstyle.css" type="text/css" />
 </head>
 
 <body>
-	<header>
-		<div id="top-logo">
-			<h1>khuwun</h1>
-			<!-- a href="index.html"><img src="images/logo.svg" alt="logo" border="0"></a-->
-		</div>
-	</header>
-	<nav>
-		<a href="illustrations" id="illustrationsnav">illustrations</a>
-		<a href="commissions" id="commissionsnav">commissions</a>
-		<a href="test.html" id="contactnav">contact</a>
-	</nav>
-	<div id="about">
-		<div id="about-left">
-			<div id="about-text" class="page-text">
-				<h2>hi i'm khuwun!</h2>
-				<p>apologies, this site is currently in the process of being transitioned. things will not show up on this page for a few days.</p>
-			</div>
-		</div>
-	</div>
-	
+    
+<!-- START NAVBAR HTML --> 
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="initial-scale=1">
+
+<nav class="navbar" id="mynavbar">
+    <a href="#home" class="active" class="logo">khuwun</a> 
+    <!-- make sure to change active class (class="active")-->
+    <a href="contact.html" class="sublinks" id="contactnav">contact</a>
+    <a href="https://khuwun.carrd.co/#comms" class="sublinks" id="commissionsnav">commissions</a>
+    <a href="illustrations" class="sublinks" id="illustrationsnav">illustrations</a> 
+    <!-- end sublinks --> 
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</nav>
+<!-- END NAVBAR HTML --> 
+
+<!-- START HEADER HTML -->
+<div class="words">
+    <p>designer, illustrator,<br>
+        cat cuddler, boba lover.</p>
+    <p class="small">yes, i wear kitty headphones.</p>
+</div>
+<!-- END HEADER HTML -->
+
+<div class="line"></div>
+
+<div class="events">
+    <ul>
+    <h2>upcoming events</h2>
+    <p>animefest 2023 - UCSD</p>
+    <p>triton gaming expo 2023 - UCSD</p>
+    <p>anime expo 2023 - los angeles</p>
+    <p>+ more to come !</p>
+    </ul>
+</div>
+    
 </body>
 </html>

@@ -1,0 +1,12 @@
+// START NAVBAR JS
+
+function myFunction() {
+  var x = document.getElementById("mynavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+// END NAVBAR JS

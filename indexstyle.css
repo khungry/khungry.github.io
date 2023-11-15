@@ -21,7 +21,6 @@ body {
 .navbar {
     display: block;
     overflow: hidden;
-    /*position: fixed; Make it stick/fixed */
     top: 0; /* Stay on top */
     left: 0;
     width: 100%; /* Full width */
@@ -115,7 +114,7 @@ body {
 }
 
 .events {
-    font-family: 'mini-wakuwaku-regular', sans-serif;
+    /* font-family: 'mini-wakuwaku-regular', sans-serif;*/ 
     color: var(--darkpink);
     width: 90%;
     margin-top: 5rem;
